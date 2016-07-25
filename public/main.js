@@ -1,18 +1,18 @@
-console.log("This is connected");
+angular.module('callTimeApp', ['ui.router'])
+    .config(config)
 
+function config ($stateProvider, $urlRouterProvider) {
+    $stateProvider
 
+        .state('home', {
+            url: '/home',
+            templateUrl: 'home.html',
+            controller: 'homeController as homeCtrl'
+        });
+        $urlRouterProvider.otherwise('/');
+}
 
-
-
-
-
-
-
-
-
-
-
-
+console.log("This is working")
 
 
 
