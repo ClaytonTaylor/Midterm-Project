@@ -1,3 +1,32 @@
+console.log("This is connected");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=============================Library of Dummy Data================================
+
+/*
 var castingDirector = [
     {
         Name:"Kyle Glass",
@@ -48,7 +77,7 @@ var director = [
     
 ]
 
-var  1stAssistantDirector(1st A.D.) = [
+var  firstAssistantDirector("1st A.D.") = [
     {
         Name:"Nick Brown",
         Gender: "Male",
@@ -72,7 +101,7 @@ var  1stAssistantDirector(1st A.D.) = [
     }
     ]
     
-var  2nd Assistant Director (2nd A.D.) = [
+var   secondAssistantDirector("2nd A.D.") = [
     {
         Name:"Josh Castro",
         Gender: "Male",
@@ -96,7 +125,7 @@ var  2nd Assistant Director (2nd A.D.) = [
     }
     ]
 
-var  Cinematographer/Director of Photography = [
+var  CinematographerDirectorofPhotography ("DP") = [
     {
         Name:"Sam Taylor",
         Gender: "Male",
@@ -982,5 +1011,6 @@ var  Composer = [
         Equipment: []
     }
     ]
+    */
 
-//Smh at Talbot falling asleep
+//========================= Library of Dummy Data=======================
