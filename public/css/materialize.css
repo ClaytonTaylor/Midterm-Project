@@ -2977,6 +2977,7 @@ footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   background-color: #ee6e73;
+  width: 100%;
 }
 
 footer.page-footer .footer-copyright {

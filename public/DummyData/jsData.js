@@ -1,28 +1,3 @@
-angular.module('callTimeApp', ['ui.router'])
-    .config(config);
-
-function config ($stateProvider, $urlRouterProvider) {
-    $stateProvider
-        .state('home', {
-            url: '/',
-            templateUrl: './home/home.html',
-            // leave commented out until added
-            // controller: 'homeController as homeCtrl'
-        })
-        .state('search', {
-            url: '/search',
-            templateUrl: './search/search.html',
-            // leave commented out until added
-            // controller: 'searchController as searchCtrl'
-        });
-        $urlRouterProvider.otherwise('/');
-}
-
-
-
-//=============================Library of Dummy Data================================
-
-/*
 var castingDirector = [
     {
         Name:"Kyle Glass",
@@ -73,7 +48,7 @@ var director = [
     
 ]
 
-var  firstAssistantDirector("1st A.D.") = [
+var  firstAssistantDirector = [
     {
         Name:"Nick Brown",
         Gender: "Male",
@@ -97,7 +72,7 @@ var  firstAssistantDirector("1st A.D.") = [
     }
     ]
     
-var   secondAssistantDirector("2nd A.D.") = [
+var  secondAssistantDirector= [
     {
         Name:"Josh Castro",
         Gender: "Male",
@@ -121,7 +96,7 @@ var   secondAssistantDirector("2nd A.D.") = [
     }
     ]
 
-var  CinematographerDirectorofPhotography ("DP") = [
+var  Cinematographer= [
     {
         Name:"Sam Taylor",
         Gender: "Male",
@@ -144,20 +119,20 @@ var  CinematographerDirectorofPhotography ("DP") = [
         Equipment: ["Canon 5D Mk3"]
     }
     ]
-var  Camera Operator = [
+var  cameraOperator = [
     {
         Name:"Andrew Winn",
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Professional",
-        Equipment: [Canon 5D Mk2]
+        Equipment: ['Canon 5D Mk2']
     },
     {
         Name:"Jordan Winn",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: [Canon 6D]
+        Equipment: ['Canon 6D']
     },
     {
         Name:"Noah Sampsel",
@@ -167,7 +142,7 @@ var  Camera Operator = [
         Equipment: ["RED Epic"]
     }
     ]
-var  1st Assistant Camera (1st A.C.) = [
+var  firstAssistantCamera = [
     {
         Name:"Jeff Gunnell",
         Gender: "Male",
@@ -190,7 +165,7 @@ var  1st Assistant Camera (1st A.C.) = [
         Equipment: []
     }
     ]
-var  2nd Assitant Camera (2nd A.C.) = [
+var  secondAssistantCamera = [
     {
         Name:"Rebekah Lee",
         Gender: "Female",
@@ -237,7 +212,7 @@ var  Gaffer = [
         Equipment: ["Standard Lighting Kit"]
     }
     ]
-var  Best Boy (lighting) = [
+var  bestBoyLighting = [
     {
         Name:"Hannah Lee",
         Gender: "Female",
@@ -260,7 +235,7 @@ var  Best Boy (lighting) = [
         Equipment: []
     }
     ]
-var  Lighting Technician = [
+var  lightingTechnician = [
     {
         Name:"Jacob Calhoon",
         Gender: "Male",
@@ -307,7 +282,7 @@ var  Grip = [
         Equipment: []
     }
     ]
-var  Key Grip = [
+var  keyGrip = [
     {
         Name:"Zak Coker",
         Gender: "Male",
@@ -330,7 +305,7 @@ var  Key Grip = [
         Equipment: ["Gloves"]
     }
     ]
-var  Dolly Grip = [
+var  dollyGrip = [
     {
         Name:"Davis Simmons",
         Gender: "Male",
@@ -353,7 +328,7 @@ var  Dolly Grip = [
         Equipment: []
     }
     ]
-var  Grips (Report to Key Grip) = [
+var  Grips = [
     {
         Name:"Fransua Durazo",
         Gender: "Male",
@@ -377,7 +352,7 @@ var  Grips (Report to Key Grip) = [
     }
     ]
 
-var  Sound Mixer = [
+var  soundMixer = [
     {
         Name:"Tony Cox",
         Gender: "Male",
@@ -400,7 +375,7 @@ var  Sound Mixer = [
         Equipment: ["Headphones"]
     }
     ]
-var  Boom Operator = [
+var  boomOperator = [
     {
         Name:"Allie Jeffers",
         Gender: "Female",
@@ -424,7 +399,7 @@ var  Boom Operator = [
     }
     ]
 
-var  Production Designer = [
+var  productionDesigner = [
     {
         Name:"Kristen Lee",
         Gender: "Female",
@@ -448,7 +423,7 @@ var  Production Designer = [
     }
     ]
 
-var  Art Director = [
+var  artDirector = [
     {
         Name:"Katie Romano",
         Gender: "Female",
@@ -471,7 +446,7 @@ var  Art Director = [
         Equipment: []
     }
     ]
-var  Set Designer = [
+var  setDesigner = [
     {
         Name:"Jordan Moore",
         Gender: "Male",
@@ -518,7 +493,7 @@ var  Illustrator = [
     }
     ]
 
-var  Set Decorator = [
+var  setDecorator = [
     {
         Name:"Clint Gilliam",
         Gender: "Male",
@@ -541,7 +516,7 @@ var  Set Decorator = [
         Equipment: []
     }
     ]
-var  Lead Man = [
+var  leadMan = [
     {
         Name:"Hailey Joyner",
         Gender: "Female",
@@ -564,7 +539,7 @@ var  Lead Man = [
         Equipment: []
     }
     ]
-var  Set Dresser = [
+var  setDresser = [
     {
         Name:"Kelsey Saunders",
         Gender: "Female",
@@ -588,7 +563,7 @@ var  Set Dresser = [
     }
     ]
 
-var  Construction Coordinator = [
+var  constructionCoordinator = [
     {
         Name:"John Ortiguero",
         Gender: "Male",
@@ -611,7 +586,7 @@ var  Construction Coordinator = [
         Equipment: []
     }
     ]
-var  Head Carpenter = [
+var  headCarpenter = [
     {
         Name:"Preston Taylor",
         Gender: "Male",
@@ -658,7 +633,7 @@ var  Carpenter = [
     }
     ]
 
-var  Costume Designer = [
+var  costumeDesigner = [
     {
         Name:"Morgan Dickenson",
         Gender: "Female",
@@ -681,7 +656,7 @@ var  Costume Designer = [
         Equipment: []
     }
     ]
-var  Costume Supervisor = [
+var  costumeSupervisor = [
     {
         Name:"Brandi Yates",
         Gender: "Female",
@@ -728,7 +703,7 @@ var  Costumer = [
     }
     ]
 
-var  Key Make-Up Artist = [
+var  keyMakeUpArtist = [
     {
         Name:"Lauren Palmer",
         Gender: "Female",
@@ -751,7 +726,7 @@ var  Key Make-Up Artist = [
         Equipment: ["Make-Up Truck"]
     }
     ]
-var  Make-Up Artist = [
+var  makeUpArtist = [
     {
         Name:"Elizabeth Rush",
         Gender: "Female",
@@ -774,7 +749,7 @@ var  Make-Up Artist = [
         Equipment: []
     }
     ]
-var  Special Effects Supervisor = [
+var  specialeffectsSupervisor = [
     {
         Name:"Jonathan Burkhart",
         Gender: "Male",
@@ -797,7 +772,7 @@ var  Special Effects Supervisor = [
         Equipment: ["SFX Equipment"]
     }
     ]
-var  Hair Stylist = [
+var  hairStylist = [
     {
         Name:"Marissa Capra",
         Gender: "Female",
@@ -821,7 +796,7 @@ var  Hair Stylist = [
     }
     ]
 
-var  Stunt Coordinator = [
+var  stuntCoordinator = [
     {
         Name:"Britton Cox",
         Gender: "Male",
@@ -868,7 +843,7 @@ var  Stuntman = [
     }
     ]
 
-var  Film Editor = [
+var  filmEditor = [
     {
         Name:"Kara Kliewer",
         Gender: "Female",
@@ -891,7 +866,7 @@ var  Film Editor = [
         Equipment: ["Mac Pro"]
     }
     ]
-var  Visual Effects Producer = [
+var  visualEffectsProducer = [
     {
         Name:"Wincent Crabeo",
         Gender: "Male",
@@ -915,7 +890,7 @@ var  Visual Effects Producer = [
     }
     ]
 
-var  Sound Designer = [
+var  soundDesigner = [
     {
         Name:"Sam Elkins",
         Gender: "Male",
@@ -938,7 +913,7 @@ var  Sound Designer = [
         Equipment: []
     }
     ]
-var  Sound Editor = [
+var  soundEditor = [
     {
         Name:"Matthew Yarnell",
         Gender: "Male",
@@ -960,8 +935,8 @@ var  Sound Editor = [
         Experience: "Professional",
         Equipment: []
     }
-    ]
-var  Music Supervisor = [
+    ];
+var  musicSupervisor = [
     {
         Name:"Austin Borjas",
         Gender: "Male",
@@ -1007,6 +982,20 @@ var  Composer = [
         Equipment: []
     }
     ]
-    */
 
-//========================= Library of Dummy Data=======================
+//Smh at Talbot falling asleep
+
+function randomUser(list) {
+        return list[Math.floor(Math.random() * list.length)];
+    }
+
+function crewCall(user,crew){
+	var arr = []
+	for(var i = 0; i < crew.length; i++){
+		if (user.Experience === crew[i].Experience && user.Location[1] === crew[i].Location[1]) {
+				arr.push(crew[i])
+			}	
+			
+		}
+	return arr
+}

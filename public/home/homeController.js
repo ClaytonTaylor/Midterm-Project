@@ -1,8 +1,6 @@
-angular.module('callTimeApp',[])
-	.controller('homeController',
-		homeCtrl
-	);
+// angular.module('callTimeApp',[])
+// 	.controller('homeController',homeController);
 
-	function homeCtrl () {
+// 	function homeController () {
 
-	}
+// 	}
