@@ -1,13 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+<body>
+
 <div class="windowSpacer">
-  <div class="searchForm">
+  <div class="container center_div">
     <form action="action_page.php" style= "margin-left: 100px;">
-      First name:<br>
+      Name:<br> 
           <input class="background white black-text" style="width: 35%"  type="text" name="firstname"><br>
-      Last name:<br>
+      Gender:<br>
           <input class="background white black-text" style="width: 35%" type="text" name="lastname"><br>
       Postion name:<br>
           <input class="background white black-text" style="width: 35%" type="text" name="position"><br>
-          <input class="background green white-text" type="submit" name="Submit">
+      Location(State):<br>
+      
+        <form action="action_page.php" style="width 35px">
+        <input list="states" style="width 35%" class="background white black-text">
+        <datalist id="states">
+          <option value="Oklahoma">
+          <option value="Colorado">
+          <option value="Texas">
+          <option value="Arkansas">
+          <option value="California">
+        </datalist> 
+        <br>
+        
+      Experience Level:<br>
+      <form action="action_page.php" style="width 35px; margin-left: 100px">
+        <input list="experience" style="width 35%" class="background white black-text">
+        <datalist id="experience">
+          <option value="Amateur">
+          <option value="Professional">
+        </datalist>
+      </form><br>
+      </form>
+                  <!--<select>-->
+                  <!--  <option value="Oklahoma">Oklahoma</option>-->
+                  <!--  <option value="Texas">Texas</option>-->
+                  <!--  <option value="Colorado">Colorado</option>-->
+                  <!--  <option value="California">Califonia</option>-->
+                  <!--</select><br>-->
+        
+          <!--<select><option ng-repeat="state in area">{{area.state}}</option></select><br>-->
+          <button type ="button" class="background green white-text, enterButton" style = "height: 45px; width: 90px; line-height: 40px; box-sizing: border-box; margin-left: 99px">Enter</button>
     </form>
   </div>
 </div>
+</div>
+
+<script src="jsData.js"></script>
+
+
+
+<!--var test = {-->
+<!--        Name:"Kyle Glass",-->
+<!--        Gender: "Male",-->
+<!--        Location: ["Oklahoma City", "Oklahoma"],-->
+<!--        Experience: "Professional",-->
+<!--        Equipment: []-->
+<!--    }-->
+    
+    
+    <!--When you input data it needs to be the same as above. so like eneter name-->
+    <!--then have a selector for male or female-->
+    <!--then a city and state enter -->
+    <!--then a selector for experice-->
+    <!--then a text input to enter equipment and we are going to have to write a fucntion to split that stuff and turn the string into an array using split(" ")-->
+    <!--im about to go swim i will be home around 2 just week working on front end stuff and we will do all this this afternoon. I will work on some of it now-->
+    
+    
+    <!--Talbot is a cake-->
+    
+    </body>
+  </html>

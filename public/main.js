@@ -1,10 +1,14 @@
 angular.module('callTimeApp', ['ui.router'])
     .config(config);
+    
+    
+    
+    
 
 function config ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
-            url: '/',
+            url: '/home',
             templateUrl: './home/home.html',
             // leave commented out until added
             // controller: 'homeController as homeCtrl'
@@ -15,7 +19,7 @@ function config ($stateProvider, $urlRouterProvider) {
             // leave commented out until added
             // controller: 'searchController as searchCtrl'
         });
-        $urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise('/home');
 }
 
 

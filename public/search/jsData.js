@@ -983,7 +983,13 @@ var  Composer = [
     }
     ]
 
-//Smh at Talbot falling asleep
+//Smh at Talbot falling asleep 
+
+var crew = {
+    "castingDirector":castingDirector
+}
+
+console.log(crew)
 
 function randomUser(list) {
         return list[Math.floor(Math.random() * list.length)];
@@ -999,3 +1005,17 @@ function crewCall(user,crew){
 		}
 	return arr
 }
+
+
+
+var directorTest = {
+        Name:"Michael Scott",
+        Gender: "Male",
+        Location: ["Oklahoma City","Oklahoma"],
+        Experience: "Professional",
+        Equipment: []
+    }
+    
+
+
+var test = crewCall(directorTest, director) 
