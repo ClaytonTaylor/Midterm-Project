@@ -1,57 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-<body>
-
-<div class="windowSpacer">
-  <div class="container center_div">
-    <form action="action_page.php" style= "margin-left: 100px;">
-      Name:<br> 
-          <input class="background white black-text" style="width: 35%"  type="text" name="firstname"><br>
-      Gender:<br>
-          <input class="background white black-text" style="width: 35%" type="text" name="lastname"><br>
-      Postion name:<br>
-          <input class="background white black-text" style="width: 35%" type="text" name="position"><br>
-      Location(State):<br>
-      
-        <form action="action_page.php" style="width 35px">
-        <input list="states" style="width 35%" class="background white black-text">
-        <datalist id="states">
-          <option value="Oklahoma">
-          <option value="Colorado">
-          <option value="Texas">
-          <option value="Arkansas">
-          <option value="California">
-        </datalist> 
-        <br>
-        
-      Experience Level:<br>
-      <form action="action_page.php" style="width 35px; margin-left: 100px">
-        <input list="experience" style="width 35%" class="background white black-text">
-        <datalist id="experience">
-          <option value="Amateur">
-          <option value="Professional">
-        </datalist>
-      </form><br>
-      </form>
-                  <!--<select>-->
-                  <!--  <option value="Oklahoma">Oklahoma</option>-->
-                  <!--  <option value="Texas">Texas</option>-->
-                  <!--  <option value="Colorado">Colorado</option>-->
-                  <!--  <option value="California">Califonia</option>-->
-                  <!--</select><br>-->
-        
-          <!--<select><option ng-repeat="state in area">{{area.state}}</option></select><br>-->
-          <button type ="button" class="background green white-text, enterButton" style = "height: 45px; width: 90px; line-height: 40px; box-sizing: border-box; margin-left: 99px">Enter</button>
+<label></label>
+ 
+ 
+ <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
     </form>
   </div>
-</div>
-</div>
+  
+<select class="browser-default" style="width: 35%">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Male</option>
+    <option value="2">Female</option>
+    <option value="3">Transgender</option>
+</select>
 
-<script src="jsData.js"></script>
+<label>Browser Select</label>
+  <select class="browser-default" style="width: 10%">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Professional</option>
+    <option value="2">Amatuer</option>
+  </select>
 
+<div>
+    <button type ="button" class="background green white-text, enterButton" style = "height: 45px; width: 90px; line-height: 40px; box-sizing: border-box;">Enter</button>
+</div>
 
 
 <!--var test = {-->
@@ -73,5 +72,3 @@
     
     <!--Talbot is a cake-->
     
-    </body>
-  </html>

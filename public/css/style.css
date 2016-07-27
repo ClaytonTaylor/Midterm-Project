@@ -5,6 +5,14 @@
  *
  * Made By MaterializeCSS.com
  */
+.row p {
+	line-height: 1.6em;	
+}
+.searchBar {
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+}
 
 .icon-block {
   padding: 0 15px;

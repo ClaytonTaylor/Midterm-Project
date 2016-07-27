@@ -16,12 +16,18 @@ function config ($stateProvider, $urlRouterProvider) {
         .state('search', {
             url: '/search',
             templateUrl: './search/search.html',
+            // controller active for drop down list
+            controller: 'searchController as searchCtrl'
+        })
+        .state('list', {
+            url: '/list',
+            templateUrl: './list/list.html',
             // leave commented out until added
-            // controller: 'searchController as searchCtrl'
+            // controller: 'listController as listCtrl'
         });
         $urlRouterProvider.otherwise('/home');
+        
 }
-
 
 
 //=============================Library of Dummy Data================================

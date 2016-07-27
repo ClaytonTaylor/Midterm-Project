@@ -96,7 +96,7 @@ var  secondAssistantDirector= [
     }
     ]
 
-var  Cinematographer= [
+var  cinematographer= [
     {
         Name:"Sam Taylor",
         Gender: "Male",
@@ -189,7 +189,7 @@ var  secondAssistantCamera = [
     }
     ]
 
-var  Gaffer = [
+var  gaffer = [
     {
         Name:"Michael Matti",
         Gender: "Male",
@@ -259,7 +259,7 @@ var  lightingTechnician = [
     }
     ]
 
-var  Grip = [
+var  grip = [
     {
         Name:"Ryan King",
         Gender: "Male",
@@ -328,7 +328,7 @@ var  dollyGrip = [
         Equipment: []
     }
     ]
-var  Grips = [
+var  grips = [
     {
         Name:"Fransua Durazo",
         Gender: "Male",
@@ -469,7 +469,7 @@ var  setDesigner = [
         Equipment: []
     }
     ]
-var  Illustrator = [
+var  illustrator = [
     {
         Name:"Hunter Youngblood",
         Gender: "Female",
@@ -582,7 +582,7 @@ var  constructionCoordinator = [
         Name:"Uy Le",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: []
     }
     ]
@@ -602,14 +602,14 @@ var  headCarpenter = [
         Equipment: []
     },
     {
-        Name:"Ashten Marting",
+        Name:"Ashten Martin",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: []
     }
     ]
-var  Carpenter = [
+var  carpenter = [
     {
         Name:"Daniel Mudliar",
         Gender: "Male",
@@ -679,7 +679,7 @@ var  costumeSupervisor = [
         Equipment: []
     }
     ]
-var  Costumer = [
+var  costumer = [
     {
         Name:"Sarah Tran",
         Gender: "Female",
@@ -698,7 +698,7 @@ var  Costumer = [
         Name:"Carly Bush",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: []
     }
     ]
@@ -708,14 +708,14 @@ var  keyMakeUpArtist = [
         Name:"Lauren Palmer",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: ["Make-Up Truck"]
     },
     {
         Name:"Sarah Hiles",
         Gender: "Female",
         Location: ["Denver","Colorado"],
-        Experience: "Professional",
+        Experience: "Amatuer",,
         Equipment: ["Make-Up Truck"]
     },
     {
@@ -749,7 +749,7 @@ var  makeUpArtist = [
         Equipment: []
     }
     ]
-var  specialeffectsSupervisor = [
+var  specialEffectsSupervisor = [
     {
         Name:"Jonathan Burkhart",
         Gender: "Male",
@@ -768,7 +768,7 @@ var  specialeffectsSupervisor = [
         Name:"Blake Tinkle",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: ["SFX Equipment"]
     }
     ]
@@ -819,7 +819,7 @@ var  stuntCoordinator = [
         Equipment: []
     }
     ]
-var  Stuntman = [
+var  stuntman = [
     {
         Name:"Kevin Dao",
         Gender: "Male",
@@ -862,7 +862,7 @@ var  filmEditor = [
         Name:"Aaron Newberry",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: ["Mac Pro"]
     }
     ]
@@ -959,12 +959,12 @@ var  musicSupervisor = [
         Equipment: []
     }
     ]
-var  Composer = [
+var  composer = [
     {
         Name:"Hope Risher",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
-        Experience: "Professional",
+        Experience: "Amatuer",
         Equipment: []
     },
     {
@@ -986,7 +986,48 @@ var  Composer = [
 //Smh at Talbot falling asleep 
 
 var crew = {
-    "castingDirector":castingDirector
+    "Casting Director":castingDirector,
+    "Director":director,
+    "First Assistant Director (1st A.D.)":firstAssistantDirector,
+    "Second Assistant Director (2nd A.D.)":secondAssistantCamera,
+    "Cinematographer (Director of Photography)":cinematographer,
+    "Camera Operator":cameraOperator,
+    "First Assistant Camera (1st A.C.)":firstAssistantCamera,
+    "Second Assistant Camera (2nd A.C.)":secondAssistantCamera,
+    "Gaffer":gaffer,
+    "Best Boy Lighting":bestBoyLighting,
+    "Lighting Technician":lightingTechnician,
+    "Grip":grip,
+    "Key Grip":keyGrip,
+    "Dolly Grip":dollyGrip,
+    "Grips":grips,
+    "Sound Mixer":soundMixer,
+    "Boom Operator":boomOperator,
+    "Production Designer":productionDesigner,
+    "Art Director":artDirector,
+    "Set Designer":setDesigner,
+    "Illustrator":illustrator,
+    "Set Decorator":setDecorator,
+    "Lead Man":leadMan,
+    "Set Dresser":setDresser,
+    "Construction Coordinator":constructionCoordinator,
+    "Head Carpenter":headCarpenter,
+    "Carpenter":carpenter,
+    "Costume Designer":costumeDesigner,
+    "Costume Supervisor":costumeSupervisor,
+    "Costumer":costumer,
+    "Key Makeup Artist":keyMakeUpArtist,
+    "Makeup Artist":makeUpArtist,
+    "Special Effects Supervisor":specialEffectsSupervisor,
+    "Hair Stylist":hairStylist,
+    "Stunt Coordinator":stuntCoordinator,
+    "Stuntman":stuntman,
+    "Film Editor":filmEditor,
+    "Visual Effects Producer":visualEffectsProducer,
+    "Sound Designer":soundDesigner,
+    "Sound Editor":soundEditor,
+    "Music Supervisor":musicSupervisor,
+    "Composer":composer
 }
 
 console.log(crew)
