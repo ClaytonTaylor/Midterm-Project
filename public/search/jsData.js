@@ -4,21 +4,24 @@ var castingDirector = [
         Gender: "Male",
         Location: ["Oklahoma City", "Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-626-2816"
     },
     {
         Name:"Daulton Brown",
         Gender: "Male",
         Location: ["Edmond", "Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-626-2816"
     },
     {
         Name:"Beau Palmer",
         Gender: "Male",
         Location: ["Oklahoma City", "Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-626-2816"
     },
 
 ]
@@ -29,21 +32,24 @@ var director = [
         Gender: "Male",
         Location: ["Moore","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-490-7012"
     },
     {
         Name:"Sam Pemberton",
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-490-7012"
     },
     {
         Name:"Matthew Stevens",
         Gender: "Male",
         Location: ["Boulder","Colorado"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-490-7012"
     },
     
 ]
@@ -54,21 +60,24 @@ var  firstAssistantDirector = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-569-1903"
     },
     {
         Name:"Josh Bergevin",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-569-1903"
     },
     {
         Name:"Dyln Phillips",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-569-1903"
     }
     ]
     
@@ -78,21 +87,24 @@ var  secondAssistantDirector= [
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Slate"]
+        Equipment: ["Slate"],
+        Phone: "405-867-9452"
     },
     {
         Name:"David Jennings",
         Gender: "Male",
         Location: ["Stillwater","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Slate"]
+        Equipment: ["Slate"],
+        Phone: "405-867-9452"
     },
     {
         Name:"Ryan Hunter",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Slate"]
+        Equipment: ["Slate"],
+        Phone: "405-867-9452"
     }
     ]
 
@@ -102,21 +114,24 @@ var  cinematographer= [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Blackmagic 4K"]
+        Equipment: ["Blackmagic 4K"],
+        Phone: "405-498-5920"
     },
     {
         Name:"Forrest Mankins",
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Sony A7s"]
+        Equipment: ["Sony A7s"],
+        Phone: "405-498-5920"
     },
     {
         Name:"Andy Taylor",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Canon 5D Mk3"]
+        Equipment: ["Canon 5D Mk3"],
+        Phone: "405-498-5920"
     }
     ]
 var  cameraOperator = [
@@ -125,21 +140,24 @@ var  cameraOperator = [
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Professional",
-        Equipment: ['Canon 5D Mk2']
+        Equipment: ['Canon 5D Mk2'],
+        Phone: "405-808-2951"
     },
     {
         Name:"Jordan Winn",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ['Canon 6D']
+        Equipment: ['Canon 6D'],
+        Phone: "405-808-2951"
     },
     {
         Name:"Noah Sampsel",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["RED Epic"]
+        Equipment: ["RED Epic"],
+        Phone: "405-808-2951"
     }
     ]
 var  firstAssistantCamera = [
@@ -148,21 +166,24 @@ var  firstAssistantCamera = [
         Gender: "Male",
         Location: ["Moore","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-447-6818"
     },
     {
         Name:"Lance McDaniel",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-447-6818"
     },
     {
         Name:"Tim Ryan",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-447-6818"
     }
     ]
 var  secondAssistantCamera = [
@@ -171,21 +192,24 @@ var  secondAssistantCamera = [
         Gender: "Female",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-748-9230"
     },
     {
         Name:"Jane Rupp",
         Gender: "Female",
         Location: ["Edmond","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-748-9230"
     },
     {
         Name:"Ben Rupp",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-748-9230"
     }
     ]
 
@@ -195,21 +219,24 @@ var  gaffer = [
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Standard Lighting Kit"]
+        Equipment: ["Standard Lighting Kit"],
+        Phone: "405-194-0598"
     },
     {
         Name:"Larry Gunnell",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Small Lighting Kit"]
+        Equipment: ["Small Lighting Kit"],
+        Phone: "405-194-0598"
     },
     {
         Name:"Carter Cox",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Standard Lighting Kit"]
+        Equipment: ["Standard Lighting Kit"],
+        Phone: "405-194-0598"
     }
     ]
 var  bestBoyLighting = [
@@ -218,21 +245,24 @@ var  bestBoyLighting = [
         Gender: "Female",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-123-7490"
     },
     {
         Name:"Aaron Mowery",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-123-7490"
     },
     {
         Name:"Carsyn Abrams",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-123-7490"
     }
     ]
 var  lightingTechnician = [
@@ -241,21 +271,24 @@ var  lightingTechnician = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-193-5342"
     },
     {
         Name:"Ash Aragona",
         Gender: "Male",
         Location: ["Moore","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-193-5342"
     },
     {
         Name:"Alex Gillingham",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-193-5342"
     }
     ]
 
@@ -265,21 +298,24 @@ var  grip = [
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-338-8889"
     },
     {
         Name:"Daylen Hoffman",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-338-8889"
     },
     {
         Name:"Alex Rodriguez",
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-338-8889"
     }
     ]
 var  keyGrip = [
@@ -288,21 +324,24 @@ var  keyGrip = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-340-9518"
     },
     {
         Name:"Brenton Little",
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Gloves", "Lighting Kit"]
+        Equipment: ["Gloves", "Lighting Kit"],
+        Phone: "405-340-9518"
     },
     {
         Name:"Porsha Keller",
         Gender: "Female",
         Location: ["Oklahoma City"," Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-340-9518"
     }
     ]
 var  dollyGrip = [
@@ -311,21 +350,24 @@ var  dollyGrip = [
         Gender: "Male",
         Location: ["Shawnee","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-198-6767"
     },
     {
         Name:"Jake Blalock",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-198-6767"
     },
     {
         Name:"Jeremiah Cowan",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-198-6767"
     }
     ]
 var  grips = [
@@ -334,21 +376,24 @@ var  grips = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-586-4890"
     },
     {
         Name:"Ceara Euliss",
         Gender: "Female",
         Location: ["Mustang","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-586-4890"
     },
     {
         Name:"Will Gaines",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Gloves"]
+        Equipment: ["Gloves"],
+        Phone: "405-586-4890"
     }
     ]
 
@@ -358,21 +403,24 @@ var  soundMixer = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Sound Cancelling Headphones"]
+        Equipment: ["Sound Cancelling Headphones"],
+        Phone: "405-398-1278"
     },
     {
         Name:"Keaton Nye",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Sound Cancelling Headphones", "Mixer"]
+        Equipment: ["Sound Cancelling Headphones", "Mixer"],
+        Phone: "405-398-1278"
     },
     {
         Name:"Dustin Harris",
         Gender: "Male",
         Location: ["Moore","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Headphones"]
+        Equipment: ["Headphones"],
+        Phone: "405-398-1278"
     }
     ]
 var  boomOperator = [
@@ -381,21 +429,24 @@ var  boomOperator = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Boom Pole", "Microphone"]
+        Equipment: ["Boom Pole", "Microphone"],
+        Phone: "405-291-4810"
     },
     {
         Name:"Derek Nguyen",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Microphone"]
+        Equipment: ["Microphone"],
+        Phone: "405-291-4810"
     },
     {
         Name:"Riley Cole",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-291-4810"
     }
     ]
 
@@ -405,21 +456,24 @@ var  productionDesigner = [
         Gender: "Female",
         Location: ["Shawnee","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-393-1278"
     },
     {
         Name:"Bryan Daugherty",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-393-1278"
     },
     {
         Name:"Justin Smith",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-393-1278"
     }
     ]
 
@@ -429,21 +483,24 @@ var  artDirector = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-392-0000"
     },
     {
         Name:"Eric Lyons",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-392-0000"
     },
     {
         Name:"Preston Kunz",
         Gender: "Male",
         Location: ["Moore","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone: "405-392-0000"
     }
     ]
 var  setDesigner = [
@@ -452,21 +509,24 @@ var  setDesigner = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Andrew Burkhart",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Jameson Ballinger",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  illustrator = [
@@ -475,21 +535,24 @@ var  illustrator = [
         Gender: "Female",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Chris Fields",
         Gender: "Male",
         Location: ["Clinton","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Drew Davis",
         Gender: "Male",
         Location: ["Seattle","Washington"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -499,21 +562,24 @@ var  setDecorator = [
         Gender: "Male",
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Kylie Brown",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Tim Landis",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  leadMan = [
@@ -522,21 +588,24 @@ var  leadMan = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Bailey Hartman",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Gian Campanon",
         Gender: "Male",
         Location: ["Kansas City","Missouri"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  setDresser = [
@@ -545,21 +614,24 @@ var  setDresser = [
         Gender: "Female",
         Location: ["Yukon","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Joel Nichols",
         Gender: "Male",
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Katie Best",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -569,21 +641,24 @@ var  constructionCoordinator = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Dylan Vance",
         Gender: "Male",
         Location: ["Denver","Colorado"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Uy Le",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  headCarpenter = [
@@ -592,21 +667,24 @@ var  headCarpenter = [
         Gender: "Male",
         Location: ["Salt Lake City","Utah"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Kyle Ko",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Ashten Martin",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  carpenter = [
@@ -615,21 +693,24 @@ var  carpenter = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Andrew McCoy",
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Eric Stults",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -639,21 +720,24 @@ var  costumeDesigner = [
         Gender: "Female",
         Location: ["Edmond","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Carla Gunderman",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Shelby Love",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  costumeSupervisor = [
@@ -662,21 +746,24 @@ var  costumeSupervisor = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Sara Whitton",
         Gender: "Female",
         Location: ["Edmond","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Emily Frazier",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  costumer = [
@@ -685,21 +772,24 @@ var  costumer = [
         Gender: "Female",
         Location: ["Seattle","Washington"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Krista Seeley",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Carly Bush",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -709,21 +799,24 @@ var  keyMakeUpArtist = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Make-Up Truck"]
+        Equipment: ["Make-Up Truck"],
+        Phone:
     },
     {
         Name:"Sarah Hiles",
         Gender: "Female",
         Location: ["Denver","Colorado"],
-        Experience: "Amatuer",,
-        Equipment: ["Make-Up Truck"]
+        Experience: "Amatuer",
+        Equipment: ["Make-Up Truck"],
+        Phone:
     },
     {
         Name:"Ellen Fields",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["Make-Up Truck"]
+        Equipment: ["Make-Up Truck"],
+        Phone:
     }
     ]
 var  makeUpArtist = [
@@ -732,21 +825,24 @@ var  makeUpArtist = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Kando Roush",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Rachel Petillo",
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  specialEffectsSupervisor = [
@@ -755,21 +851,24 @@ var  specialEffectsSupervisor = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["SFX Equipment"]
+        Equipment: ["SFX Equipment"],
+        Phone:
     },
     {
         Name:"Cole Christiansen",
         Gender: "Male",
         Location: ["Denver","Colorado"],
         Experience: "Professional",
-        Equipment: ["SFX Equipment"]
+        Equipment: ["SFX Equipment"],
+        Phone:
     },
     {
         Name:"Blake Tinkle",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["SFX Equipment"]
+        Equipment: ["SFX Equipment"],
+        Phone:
     }
     ]
 var  hairStylist = [
@@ -778,21 +877,24 @@ var  hairStylist = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Ashley Fravert",
         Gender: "Female",
         Location: ["Moore","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Ashlee Lum",
         Gender: "Female",
         Location: ["Oklahoma City"," Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -802,21 +904,24 @@ var  stuntCoordinator = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Noah Livingston",
         Gender: "Male",
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Tim Singleton",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  stuntman = [
@@ -825,21 +930,24 @@ var  stuntman = [
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Jeff Nine",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Zach Wren",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -849,21 +957,24 @@ var  filmEditor = [
         Gender: "Female",
         Location: ["Edmond","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["iMac"]
+        Equipment: ["iMac"],
+        Phone:
     },
     {
         Name:"Dylan Black",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: ["iMac"]
+        Equipment: ["iMac"],
+        Phone:
     },
     {
         Name:"Aaron Newberry",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: ["Mac Pro"]
+        Equipment: ["Mac Pro"],
+        Phone:
     }
     ]
 var  visualEffectsProducer = [
@@ -872,21 +983,24 @@ var  visualEffectsProducer = [
         Gender: "Male",
         Location: ["Seattle","Washington"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Joel Cox",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Parker Slack",
         Gender: "Male",
         Location: ["Tulsa","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 
@@ -896,21 +1010,24 @@ var  soundDesigner = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Catie Parsons",
         Gender: "Female",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Nate Jarboe",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  soundEditor = [
@@ -919,21 +1036,24 @@ var  soundEditor = [
         Gender: "Male",
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Travis Warren",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Paul Tellefsen",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ];
 var  musicSupervisor = [
@@ -942,21 +1062,24 @@ var  musicSupervisor = [
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Jordan Nelon",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Jonathan Baez",
         Gender: "Male",
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 var  composer = [
@@ -965,21 +1088,24 @@ var  composer = [
         Gender: "Female",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Salem Gullo",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     },
     {
         Name:"Jacob Fernandez",
         Gender: "Male",
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
-        Equipment: []
+        Equipment: [],
+        Phone:
     }
     ]
 

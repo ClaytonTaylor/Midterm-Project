@@ -6,5 +6,6 @@ angular.module('callTimeApp',[])
 		
 		self.test = function() {
 			console.log("test");
-		}
+		};
 }
+

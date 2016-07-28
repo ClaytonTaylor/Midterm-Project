@@ -1,4 +1,37 @@
-<!--CSS for all Forms on Page-->
+<!DOCTYPE html>
+<html ng-app="callTimeApp">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Clay's Midterm</title>
+
+  <!-- frameworks & files  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+  
+  
+ 
+</head>
+<body ng-controller="searchController as searchCtrl"class="background grey">
+  <nav class="black lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Call Time</a>
+      <div>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="../home/home.html">Home</a></li>
+          <li><a href="link">Link</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      
+      <!--CSS for all Forms on Page-->
 <style>
   .flexcontainer {
    display: -webkit-flex;
@@ -8,15 +41,15 @@
 }
 </style>
 <!--===============================Forms on Search.html========================-->
-<div class="container" style="width: 500px; height: 500px; margin-left: 100px; margin-top: 25px">
+<div class="container" style="width: 500px; height: 500px; margin-left: 100px; margin-top: 25px; padding-bottom: 30px;">
   
   <h4>Please Fill Out Your Information</h4>
   
   <!--Name Form-->
-  <div class="row">
+  <div class="row;">
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6; background white black-text" style="line-height: 45px; width: 48%; height: 42px; font-size: 1rem; margin-left:10px; border-radius: 5px">
+        <div class="input-field col s6; background white black-text" style="line-height: 45px; width: 48%; height: 42px; font-size: 1rem; margin-left:10px; margin-bottom:30px; border-radius: 5px">
           <input placeholder="Name" id="first_name" type="text" class="validate" style="padding:0px;">
         </div>
       </div>
@@ -25,51 +58,50 @@
   
 <select class="browser-default background white black-text" style="width: 50%; display:flex">
     <option value="" disabled selected>Crew Position</option>
-    <option value="1">Art Director</option>
-    <option value="2">Best Boy Lighting</option>
-    <option value="3">Boom Operator</option>
-    <option value="4">Camera Operator</option>
-    <option value="5">Carpenter</option>
-    <option value="6">Casting Director</option>
-    <option value="7">Cinematographer (Director of Photography)</option>
-    <option value="8">Female</option>
-    <option value="9">Female</option>
-    <option value="10">Female</option>
-    <option value="11">Female</option>
-    <option value="12">Female</option>
-    <option value="13">Female</option>
-    <option value="14">Female</option>
-    <option value="15">Female</option>
-    <option value="16">Female</option>
-    <option value="17">Female</option>
-    <option value="18">Female</option>
-    <option value="19">Female</option>
-    <option value="20">Female</option>
-    <option value="21">Female</option>
-    <option value="22">Female</option>
-    <option value="23">Female</option>
-    <option value="24">Female</option>
-    <option value="25">Female</option>
-    <option value="26">Female</option>
-    <option value="27">Female</option>
-    <option value="28">Female</option>
-    <option value="29">Female</option>
-    <option value="30">Female</option>
-    <option value="31">Female</option>
-    <option value="32">Female</option>
-    <option value="33">Female</option>
-    <option value="34">Female</option>
-    <option value="35">Female</option>
-    <option value="36">Female</option>
-    <option value="37">Female</option>
-    <option value="38">Female</option>
-    <option value="39">Female</option>
-    <option value="40">Female</option>
-    <option value="41">Female</option>
-    <option value="42">Female</option>
-    
-    
+      <option value="1">Art Director</option>
+      <option value="2">Best Boy Lighting</option>
+      <option value="3">Boom Operator</option>
+      <option value="4">Camera Operator</option>
+      <option value="5">Carpenter</option>
+      <option value="6">Casting Director</option>
+      <option value="7">Cinematographer (Director of Photography)</option>
+      <option value="8">Composer</option>
+      <option value="9">Construction Coordinator</option>
+      <option value="10">Costume Designer</option>
+      <option value="11">Costume Supervisor</option>
+      <option value="12">Costumer</option>
+      <option value="13">Director</option>
+      <option value="14">Dolly Grip</option>
+      <option value="15">Film Editor</option>
+      <option value="15">First Assistant Camera (1st A.C.)</option>
+      <option value="16">First Assistant Director (1st A.D.)</option>
+      <option value="17">Gaffer</option>
+      <option value="18">Grip</option>
+      <option value="19">Grips</option>
+      <option value="20">Hair Stylist</option>
+      <option value="21">Head Carpenter</option>
+      <option value="22">Illustrator</option>
+      <option value="23">Key Grip</option>
+      <option value="24">Key Makeup Artist</option>
+      <option value="25">Lead Man</option>
+      <option value="26">Lighting Technician</option>
+      <option value="27">Makeup Artist</option>
+      <option value="28">Music Supervisor</option>
+      <option value="29">Production Designer</option>
+      <option value="30">Second Assistant Camera (2nd A.C.)</option>
+      <option value="31">Second Assistant Director (2nd A.D.)</option>
+      <option value="32">Set Decorator</option>
+      <option value="33">Set Designer</option>
+      <option value="34">Set Dresser</option>
+      <option value="35">Sound Designer</option>
+      <option value="36">Sound Editor</option>
+      <option value="37">Sound Mixer</option>
+      <option value="39">Special Effects Supervisor</option>
+      <option value="40">Stunt Coordinator</option>
+      <option value="41">Stuntman</option>
+      <option value="42">Visual Effects Producer</option>
 </select>
+<br>
 
   <!--Gender Form-->
 <select class="browser-default background white black-text" style="width: 50%; display:flex">
@@ -115,28 +147,14 @@
   <!--Generate Button-->
   <div class="row left">
         <!--<a class="btn-large waves-effect waves-light green" style="margin-left: 10px">Generate</a>-->
-        <button class="btn-large waves-effect waves-light green" ng-click="searchCtrl.test()">Generate</button>
-      </div>
-      <br><br>
+        <button ng-click="searchCtrl.test()" class="btn-large waves-effect waves-light green" style="margin-left: 10px;">Generate</button>
   </div>
+      <br><br>
+      <!--<ui-view> </ui-view>-->
 
 
+<!--Scripts-->
+  <script src="../main.js"></script>
+  <script src="searchController.js"></script>
 
-
-<!--var test = {-->
-<!--        Name:"Kyle Glass",-->
-<!--        Gender: "Male",-->
-<!--        Location: ["Oklahoma City", "Oklahoma"],-->
-<!--        Experience: "Professional",-->
-<!--        Equipment: []-->
-<!--    }-->
-    
-    
-    <!--When you input data it needs to be the same as above. so like eneter name-->
-    <!--then have a selector for male or female-->
-    <!--then a city and state enter -->
-    <!--then a selector for experice-->
-    <!--then a text input to enter equipment and we are going to have to write a fucntion to split that stuff and turn the string into an array using split(" ")-->
-    <!--im about to go swim i will be home around 2 just week working on front end stuff and we will do all this this afternoon. I will work on some of it now-->
-    
-    
+</html>
