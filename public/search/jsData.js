@@ -510,7 +510,7 @@ var  setDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-584-0011"
     },
     {
         Name:"Andrew Burkhart",
@@ -518,7 +518,7 @@ var  setDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-584-0011"
     },
     {
         Name:"Jameson Ballinger",
@@ -526,7 +526,7 @@ var  setDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-584-0011"
     }
     ]
 var  illustrator = [
@@ -536,7 +536,7 @@ var  illustrator = [
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-798-2040"
     },
     {
         Name:"Chris Fields",
@@ -544,7 +544,7 @@ var  illustrator = [
         Location: ["Clinton","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-798-2040"
     },
     {
         Name:"Drew Davis",
@@ -552,7 +552,7 @@ var  illustrator = [
         Location: ["Seattle","Washington"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-798-2040"
     }
     ]
 
@@ -563,7 +563,7 @@ var  setDecorator = [
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-265-4327"
     },
     {
         Name:"Kylie Brown",
@@ -571,7 +571,7 @@ var  setDecorator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-265-4327"
     },
     {
         Name:"Tim Landis",
@@ -579,7 +579,7 @@ var  setDecorator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-265-4327"
     }
     ]
 var  leadMan = [
@@ -589,7 +589,7 @@ var  leadMan = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-927-8489"
     },
     {
         Name:"Bailey Hartman",
@@ -597,7 +597,7 @@ var  leadMan = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-927-8489"
     },
     {
         Name:"Gian Campanon",
@@ -605,7 +605,7 @@ var  leadMan = [
         Location: ["Kansas City","Missouri"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-927-8489"
     }
     ]
 var  setDresser = [
@@ -615,7 +615,7 @@ var  setDresser = [
         Location: ["Yukon","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-720-9034"
     },
     {
         Name:"Joel Nichols",
@@ -623,7 +623,7 @@ var  setDresser = [
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-720-9034"
     },
     {
         Name:"Katie Best",
@@ -631,7 +631,7 @@ var  setDresser = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-720-9034"
     }
     ]
 
@@ -642,7 +642,7 @@ var  constructionCoordinator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-102-4910"
     },
     {
         Name:"Dylan Vance",
@@ -650,7 +650,7 @@ var  constructionCoordinator = [
         Location: ["Denver","Colorado"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-102-4910"
     },
     {
         Name:"Uy Le",
@@ -658,7 +658,7 @@ var  constructionCoordinator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-102-4910"
     }
     ]
 var  headCarpenter = [
@@ -668,7 +668,7 @@ var  headCarpenter = [
         Location: ["Salt Lake City","Utah"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-109-3290"
     },
     {
         Name:"Kyle Ko",
@@ -676,7 +676,7 @@ var  headCarpenter = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-109-3290"
     },
     {
         Name:"Ashten Martin",
@@ -684,7 +684,7 @@ var  headCarpenter = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-109-3290"
     }
     ]
 var  carpenter = [
@@ -694,7 +694,7 @@ var  carpenter = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-295-5690"
     },
     {
         Name:"Andrew McCoy",
@@ -702,7 +702,7 @@ var  carpenter = [
         Location: ["Norman","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-295-5690"
     },
     {
         Name:"Eric Stults",
@@ -710,7 +710,7 @@ var  carpenter = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-295-5690"
     }
     ]
 
@@ -721,7 +721,7 @@ var  costumeDesigner = [
         Location: ["Edmond","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-193-5839"
     },
     {
         Name:"Carla Gunderman",
@@ -729,7 +729,7 @@ var  costumeDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-193-5839"
     },
     {
         Name:"Shelby Love",
@@ -737,7 +737,7 @@ var  costumeDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-193-5839"
     }
     ]
 var  costumeSupervisor = [
@@ -747,7 +747,7 @@ var  costumeSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-929-1234"
     },
     {
         Name:"Sara Whitton",
@@ -755,7 +755,7 @@ var  costumeSupervisor = [
         Location: ["Edmond","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-929-1234"
     },
     {
         Name:"Emily Frazier",
@@ -763,7 +763,7 @@ var  costumeSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-929-1234"
     }
     ]
 var  costumer = [
@@ -773,7 +773,7 @@ var  costumer = [
         Location: ["Seattle","Washington"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-838-5629"
     },
     {
         Name:"Krista Seeley",
@@ -781,7 +781,7 @@ var  costumer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-838-5629"
     },
     {
         Name:"Carly Bush",
@@ -789,7 +789,7 @@ var  costumer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-838-5629"
     }
     ]
 
@@ -800,7 +800,7 @@ var  keyMakeUpArtist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: ["Make-Up Truck"],
-        Phone:
+        Phone: "405-103-1303"
     },
     {
         Name:"Sarah Hiles",
@@ -808,7 +808,7 @@ var  keyMakeUpArtist = [
         Location: ["Denver","Colorado"],
         Experience: "Amatuer",
         Equipment: ["Make-Up Truck"],
-        Phone:
+        Phone: "405-103-1303"
     },
     {
         Name:"Ellen Fields",
@@ -816,7 +816,7 @@ var  keyMakeUpArtist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: ["Make-Up Truck"],
-        Phone:
+        Phone: "405-103-1303"
     }
     ]
 var  makeUpArtist = [
@@ -826,7 +826,7 @@ var  makeUpArtist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-398-5860"
     },
     {
         Name:"Kando Roush",
@@ -834,7 +834,7 @@ var  makeUpArtist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-398-5860"
     },
     {
         Name:"Rachel Petillo",
@@ -842,7 +842,7 @@ var  makeUpArtist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-398-5860"
     }
     ]
 var  specialEffectsSupervisor = [
@@ -852,7 +852,7 @@ var  specialEffectsSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: ["SFX Equipment"],
-        Phone:
+        Phone: "405-129-3940"
     },
     {
         Name:"Cole Christiansen",
@@ -860,7 +860,7 @@ var  specialEffectsSupervisor = [
         Location: ["Denver","Colorado"],
         Experience: "Professional",
         Equipment: ["SFX Equipment"],
-        Phone:
+        Phone: "405-129-3940"
     },
     {
         Name:"Blake Tinkle",
@@ -868,7 +868,7 @@ var  specialEffectsSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: ["SFX Equipment"],
-        Phone:
+        Phone: "405-129-3940"
     }
     ]
 var  hairStylist = [
@@ -878,7 +878,7 @@ var  hairStylist = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-284-5820"
     },
     {
         Name:"Ashley Fravert",
@@ -886,7 +886,7 @@ var  hairStylist = [
         Location: ["Moore","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-284-5820"
     },
     {
         Name:"Ashlee Lum",
@@ -894,7 +894,7 @@ var  hairStylist = [
         Location: ["Oklahoma City"," Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-284-5820"
     }
     ]
 
@@ -905,7 +905,7 @@ var  stuntCoordinator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-580-4940"
     },
     {
         Name:"Noah Livingston",
@@ -913,7 +913,7 @@ var  stuntCoordinator = [
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-580-4940"
     },
     {
         Name:"Tim Singleton",
@@ -921,7 +921,7 @@ var  stuntCoordinator = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-580-4940"
     }
     ]
 var  stuntman = [
@@ -931,7 +931,7 @@ var  stuntman = [
         Location: ["Norman","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-191-3058"
     },
     {
         Name:"Jeff Nine",
@@ -939,7 +939,7 @@ var  stuntman = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-191-3058"
     },
     {
         Name:"Zach Wren",
@@ -947,7 +947,7 @@ var  stuntman = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-191-3058"
     }
     ]
 
@@ -958,7 +958,7 @@ var  filmEditor = [
         Location: ["Edmond","Oklahoma"],
         Experience: "Professional",
         Equipment: ["iMac"],
-        Phone:
+        Phone: "405-281-6983"
     },
     {
         Name:"Dylan Black",
@@ -966,7 +966,7 @@ var  filmEditor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: ["iMac"],
-        Phone:
+        Phone: "405-281-6983"
     },
     {
         Name:"Aaron Newberry",
@@ -974,7 +974,7 @@ var  filmEditor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: ["Mac Pro"],
-        Phone:
+        Phone: "405-281-6983"
     }
     ]
 var  visualEffectsProducer = [
@@ -984,7 +984,7 @@ var  visualEffectsProducer = [
         Location: ["Seattle","Washington"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-835-8104"
     },
     {
         Name:"Joel Cox",
@@ -992,7 +992,7 @@ var  visualEffectsProducer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-835-8104"
     },
     {
         Name:"Parker Slack",
@@ -1000,7 +1000,7 @@ var  visualEffectsProducer = [
         Location: ["Tulsa","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-835-8104"
     }
     ]
 
@@ -1011,7 +1011,7 @@ var  soundDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-191-5062"
     },
     {
         Name:"Catie Parsons",
@@ -1019,7 +1019,7 @@ var  soundDesigner = [
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-191-5062"
     },
     {
         Name:"Nate Jarboe",
@@ -1027,7 +1027,7 @@ var  soundDesigner = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-191-5062"
     }
     ]
 var  soundEditor = [
@@ -1037,7 +1037,7 @@ var  soundEditor = [
         Location: ["Dallas","Texas"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-395-1875"
     },
     {
         Name:"Travis Warren",
@@ -1045,7 +1045,7 @@ var  soundEditor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-395-1875"
     },
     {
         Name:"Paul Tellefsen",
@@ -1053,7 +1053,7 @@ var  soundEditor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-395-1875"
     }
     ];
 var  musicSupervisor = [
@@ -1063,7 +1063,7 @@ var  musicSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-250-1940"
     },
     {
         Name:"Jordan Nelon",
@@ -1071,7 +1071,7 @@ var  musicSupervisor = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-250-1940"
     },
     {
         Name:"Jonathan Baez",
@@ -1079,7 +1079,7 @@ var  musicSupervisor = [
         Location: ["Norman","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-250-1940"
     }
     ]
 var  composer = [
@@ -1089,7 +1089,7 @@ var  composer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Amatuer",
         Equipment: [],
-        Phone:
+        Phone: "405-140-1950"
     },
     {
         Name:"Salem Gullo",
@@ -1097,7 +1097,7 @@ var  composer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-140-1950"
     },
     {
         Name:"Jacob Fernandez",
@@ -1105,7 +1105,7 @@ var  composer = [
         Location: ["Oklahoma City","Oklahoma"],
         Experience: "Professional",
         Equipment: [],
-        Phone:
+        Phone: "405-140-1950"
     }
     ]
 
