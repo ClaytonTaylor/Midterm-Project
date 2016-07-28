@@ -1,24 +1,10 @@
 angular.module('callTimeApp',[])
 	.controller('searchController', searchController);
 
-	function searchController(Storage) {
+	function searchController() {
 		var self = this;
 		
-		self.showConfig;
-		
-		self.search = Storage.get('personInfo') || [
-			{
-				first_name : 'matt',
-				last_name  : 'stevens',
-				disabled   : 'yes',
-				gender	   : 'male',
-				skill	   : 'professional',
-			}
-			];
-			
-	self.addInfo = function() {
-        Storage.set('personInfo', self.search);
-        console.log(self.search)
-    };
+		self.test = function() {
+			console.log("test");
+		}
 }
-//hello cake. Kick talbot in the balls for me #Kony2012BlazeIt

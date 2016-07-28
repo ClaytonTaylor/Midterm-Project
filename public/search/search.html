@@ -1,12 +1,4 @@
-
-<!--<div class="row background white black-text" style="width: 25%;">-->
-<!--  <label for="first_name2">First Name</label>-->
-<!--    <div class="input-field col s6">-->
-      <!--<label for="first_name2">First Name</label>-->
-<!--      <input value="" id="first_name2" type="text" class="validate">-->
-      <!--<label for="first_name2">First Name</label>-->
-<!--    </div>-->
-<!--  </div>-->
+<!--CSS for all Forms on Page-->
 <style>
   .flexcontainer {
    display: -webkit-flex;
@@ -20,27 +12,67 @@
   
   <h4>Please Fill Out Your Information</h4>
   
-  
-  
-  <!--<div class="row browser-default background white black-text;" style="height: 42px; width:250px; display:inline-block; margin-left:0px; border-radius: 5px">-->
-  <!--  <div class="input-field col s4" style="width: 100%;">-->
-  <!--    <input type="text" class="black-text" style="padding-bottom: 45px; padding-left: 0px; margin: 0px">-->
-  <!--  </div>-->
-  <!--</div>-->
-  
   <!--Name Form-->
   <div class="row">
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6; background white black-text" style="line-height: 45px; width: 50%; height: 42px; font-size: 1rem; margin-left:10px; border-radius: 5px">
+        <div class="input-field col s6; background white black-text" style="line-height: 45px; width: 48%; height: 42px; font-size: 1rem; margin-left:10px; border-radius: 5px">
           <input placeholder="Name" id="first_name" type="text" class="validate" style="padding:0px;">
         </div>
       </div>
     </form>
   </div>
+  
+<select class="browser-default background white black-text" style="width: 50%; display:flex">
+    <option value="" disabled selected>Crew Position</option>
+    <option value="1">Art Director</option>
+    <option value="2">Best Boy Lighting</option>
+    <option value="3">Boom Operator</option>
+    <option value="4">Camera Operator</option>
+    <option value="5">Carpenter</option>
+    <option value="6">Casting Director</option>
+    <option value="7">Cinematographer (Director of Photography)</option>
+    <option value="8">Female</option>
+    <option value="9">Female</option>
+    <option value="10">Female</option>
+    <option value="11">Female</option>
+    <option value="12">Female</option>
+    <option value="13">Female</option>
+    <option value="14">Female</option>
+    <option value="15">Female</option>
+    <option value="16">Female</option>
+    <option value="17">Female</option>
+    <option value="18">Female</option>
+    <option value="19">Female</option>
+    <option value="20">Female</option>
+    <option value="21">Female</option>
+    <option value="22">Female</option>
+    <option value="23">Female</option>
+    <option value="24">Female</option>
+    <option value="25">Female</option>
+    <option value="26">Female</option>
+    <option value="27">Female</option>
+    <option value="28">Female</option>
+    <option value="29">Female</option>
+    <option value="30">Female</option>
+    <option value="31">Female</option>
+    <option value="32">Female</option>
+    <option value="33">Female</option>
+    <option value="34">Female</option>
+    <option value="35">Female</option>
+    <option value="36">Female</option>
+    <option value="37">Female</option>
+    <option value="38">Female</option>
+    <option value="39">Female</option>
+    <option value="40">Female</option>
+    <option value="41">Female</option>
+    <option value="42">Female</option>
+    
+    
+</select>
 
   <!--Gender Form-->
- <select class="browser-default background white black-text" style="width: 50%; display:flex">
+<select class="browser-default background white black-text" style="width: 50%; display:flex">
     <option value="" disabled selected>Gender</option>
     <option value="1">Male</option>
     <option value="2">Female</option>
@@ -82,27 +114,11 @@
   
   <!--Generate Button-->
   <div class="row left">
-        <a class="btn-large waves-effect waves-light green" style="margin-left: 10px">Generate</a>
+        <!--<a class="btn-large waves-effect waves-light green" style="margin-left: 10px">Generate</a>-->
+        <button class="btn-large waves-effect waves-light green" ng-click="searchCtrl.test()">Generate</button>
       </div>
       <br><br>
-<!--<button ui-sref="list" id="download-button" style="display:flex" class="btn waves-effect green-light" type="submit" name="action">Submit-->
-<!--    <i style="line-height: 36px;" class="material-icons right">send</i>-->
-<!--</button>-->
-    <!--<button type ="button" class="background green white-text enterButton" style = "height: 45px; width: 90px; line-height: 40px; border-radius: 5px;">Enter</button>-->
-
-</div>
-
-<!--added-->
-<div class="config" ng-show="searchCtrl.showConfig">
-
-<!--  <div ng-repeat="(key, value) in searchCtrl.showConfig">-->
-<!--    {{key}}-->
-<!--    <input type="text" ng-model="searchCtrl.showConfig[key]"/>-->
-<!--  </div>-->
-<!--  <br>-->
-<!--  <br>-->
-<!--  <button class="save"ng-click="searchCtrl.addInfo()">enter</button>-->
-<!--</div>-->
+  </div>
 
 
 
@@ -123,6 +139,4 @@
     <!--then a text input to enter equipment and we are going to have to write a fucntion to split that stuff and turn the string into an array using split(" ")-->
     <!--im about to go swim i will be home around 2 just week working on front end stuff and we will do all this this afternoon. I will work on some of it now-->
     
-    
-    <!--Talbot is a cake-->
     
